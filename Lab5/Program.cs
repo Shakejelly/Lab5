@@ -4,14 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Circle area = new Circle();
-            
+            Circle circle = new Circle();
 
-            Console.WriteLine("Skriv in radie i cm till en cirkel så visar jag dess area");
-            int radie = Convert.ToInt32(Console.ReadLine());
+            circle.GetArea(5);
             
-
-            Circle.GetArea();
 
         }
     }
